@@ -136,6 +136,8 @@ a.link-primary {
 }
 
 a.link-footer {
+  font-family: "Alata";
+  font-style: normal;
   color: #fff;
   text-decoration: none;
 }
@@ -340,6 +342,11 @@ footer {
 @media (min-width: 1200px) {
   body {
     font-family: "Josefin Sans", sans-serif;
+  }
+
+  .img-logo {
+    width: 13.3333333333%;
+    max-width: 192px;
   }
 
   .img-hero {
@@ -560,6 +567,7 @@ footer {
     width: 100%;
     background: #000;
     padding: 44px 13.6%;
+    margin-bottom: 40px;
   }
 
   .footer-ul {
