@@ -345,6 +345,7 @@ footer {
   .img-hero {
     width: 65.796579658%;
     max-width: 731px;
+    margin-bottom: 0;
   }
 
   .img-card {
@@ -419,10 +420,15 @@ footer {
     letter-spacing: 5px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #fff;
-    background: #000;
+    color: #000;
+    background: #fff;
     border: 1px solid #000;
     padding: 13px 43px;
+  }
+
+  a.link-creation-section-header:hover {
+    color: #fff;
+    background: #000;
   }
 
   a.link-primary {
@@ -504,7 +510,7 @@ footer {
     position: absolute;
     width: 48.6948694869%;
     max-width: 541px;
-    top: 33.5%;
+    top: 36.6%;
     left: 51.3051305131%;
     padding: 96px 0 0 96px;
     background: #fff;
