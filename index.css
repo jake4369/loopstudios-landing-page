@@ -105,6 +105,14 @@ button.nav-btn-close {
 }
 
 /* LINKS */
+.nav-ul {
+  display: none;
+}
+
+.modal-ul > li {
+  margin-bottom: 24px;
+}
+
 a.link-modal {
   font-family: "Josefin Sans";
   font-weight: 300;
@@ -115,7 +123,7 @@ a.link-modal {
   color: #ffffff;
 }
 
-a.link-modal li {
+.nav-ul li {
   margin-bottom: 24px;
 }
 
@@ -142,7 +150,7 @@ a.link-footer {
   text-decoration: none;
 }
 
-a.link-footer > li {
+a.link-footer {
   margin-bottom: 16px;
 }
 
@@ -345,8 +353,7 @@ footer {
   }
 
   .img-logo {
-    width: 13.3333333333%;
-    max-width: 192px;
+    width: 192px;
   }
 
   .img-hero {
@@ -442,13 +449,13 @@ footer {
     display: none;
   }
 
-  a.link-footer > li {
+  a.link-footer {
     margin-bottom: 0;
     position: relative;
   }
 
   .nav-ul a:hover::after,
-  a.link-footer > li:hover::after {
+  a.link-footer:hover::after {
     position: absolute;
     content: "";
     width: 24px;
@@ -579,7 +586,7 @@ footer {
 
   .social-links {
     text-align: right;
-    margin-bottom: 0;
+    margin-bottom: 32px;
   }
 
   /* ========== 
